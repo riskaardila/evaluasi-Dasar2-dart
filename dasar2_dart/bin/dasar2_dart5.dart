@@ -1,17 +1,22 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  print("Awal : ");
-  int awal = int.tryParse(stdin.readLineSync());
-  print("Akhir : ");
-  int akhir = int.tryParse(stdin.readLineSync());
+  int k = 0;
+  print("Input : ");
+  int i = int.tryParse(stdin.readLineSync());
 
-  print("Kelipatan 3 : ");
-  do {
-    if (awal % 3 == 0) {
-      print(awal);
+  print("Proses : ");
+  int j = 1;
+
+  while (j <= i) {
+    print(j);
+    if (j < i) {
+      print("+");
     }
 
-    awal = awal + 1;
-  } while (awal <= akhir);
+    k = k + j;
+    j = j + 1;
+  }
+
+  print(k);
 }

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(List<String> args) {
+void main(List<String> arguments) {
   print("ALGORITMA Kelipatan_Tiga");
   int i = int.tryParse(stdin.readLineSync());
   int j = int.tryParse(stdin.readLineSync());

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(List<String> args) {
+void main(List<String> arguments) {
   //Selisih waktu
   int iJamStart = int.tryParse(stdin.readLineSync());
   print("Jam Masuk: " + iJamStart.toString());

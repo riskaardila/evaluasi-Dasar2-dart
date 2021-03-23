@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(List<String> args) {
+void main(List<String> arguments) {
   //tunjangan aanak
   print("Algoritma Menghitung_Tunjangan");
   int iGajiPokok = int.tryParse(stdin.readLineSync());
