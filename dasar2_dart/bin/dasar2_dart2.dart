@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  //selisih waktu
+  //Biaya Parkir
   int iMasuk = int.tryParse(stdin.readLineSync());
   int iKeluar = int.tryParse(stdin.readLineSync());
   int Ilama, iBiaya;

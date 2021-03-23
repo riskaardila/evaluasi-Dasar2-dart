@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  //Biaya parkir
+  //Selisih waktu
   int iJamStart = int.tryParse(stdin.readLineSync());
   print("Jam Masuk: " + iJamStart.toString());
   int iMenitStart = int.tryParse(stdin.readLineSync());
